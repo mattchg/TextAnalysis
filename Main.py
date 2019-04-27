@@ -11,6 +11,11 @@ At its core it is a text analyzer
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from Functions import parse_Sentences, parse_Words
 
-data = pd.read_csv('Test.txt', sep=".", header=None)
+#data = pd.read_csv('Declaration.txt', sep=" ", header=None)
 
+f = open('Declaration.txt', 'r')
+content = f.read()
+
+sentences = parse_Sentences(content)
