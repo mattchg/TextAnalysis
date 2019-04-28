@@ -11,11 +11,27 @@ At its core it is a text analyzer
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from Functions import parse_Sentences, parse_Words
+import Functions
+import constants
 
-#data = pd.read_csv('Declaration.txt', sep=" ", header=None)
-
-f = open('Declaration.txt', 'r')
+f = open('Declaration.txt','r')
 content = f.read()
 
-sentences = parse_Sentences(content)
+sentences = Functions.parse_Sentences(content)
+absolute = pd.DataFrame(columns = ['Occurences'])
+
+
+for sent in sentences:
+    [words,freq] = Functions.get_WordFrequency(Functions.parse_Words(sent))  
+    for word in words:
+        if(absolute.index.equals(word)):
+            absolute[word] = absolute[word] + freq[word]
+        else:
+            absolute = absolute.append(pd.DataFrame(index = [word] ,columns = ['Occurences'], data = [freq[word]]))
+
+
+
+"""
+ Need to create a nxn matrix or pandas dataframe with words as column/row headers and the 
+ cells as the following frequency
+"""
