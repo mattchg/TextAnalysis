@@ -18,16 +18,22 @@ f = open('Declaration.txt','r')
 content = f.read()
 
 sentences = Functions.parse_Sentences(content)
-absolute = pd.DataFrame(columns = ['Occurences'])
-
+absolute = {}
+conditional = {}
 
 for sent in sentences:
     [words,freq] = Functions.get_WordFrequency(Functions.parse_Words(sent))  
     for word in words:
-        if(absolute.index.equals(word)):
-            absolute[word] = absolute[word] + freq[word]
-        else:
-            absolute = absolute.append(pd.DataFrame(index = [word] ,columns = ['Occurences'], data = [freq[word]]))
+        if(len(word)):        
+            if word in list(absolute):
+                absolute[word] = absolute[word] + freq[word]
+            else:
+                absolute[word] = freq[word]
+
+df = pd.DataFrame(index = list(absolute),columns = ['Occurences'],data = list(absolute.values()))
+
+
+
 
 
 

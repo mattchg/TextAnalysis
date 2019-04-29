@@ -34,7 +34,9 @@ def scrub_word(word):
     word = drop_nonalpha(word, constants.QUOTE)
     word = drop_nonalpha(word, constants.SEMI)
     word = drop_nonalpha(word, constants.SPACE)
-    return word.lower()
+    word = drop_nonalpha(word, constants.NEWLINE)
+    word = drop_nonalpha(word, constants.RESET)
+    return str(word.lower())    
 
 def drop_nonalpha (word, part):
     while(word.partition(part)[1]):
