@@ -5,8 +5,6 @@ Created on Sat Apr 27 15:48:35 2019
 @author: Matthew
 """
 import constants
-from collections import OrderedDict
-
 
 def parse_Sentences(text_Body):
   text = str(text_Body)
@@ -27,17 +25,12 @@ def parse_Words(sentence):
   return words
   
 def scrub_word(word):
-    word = drop_nonalpha(word, constants.COLON)
-    word = drop_nonalpha(word, constants.COMMA)  
-    word = drop_nonalpha(word, constants.DASH)
-    word = drop_nonalpha(word, constants.PERIOD)
-    word = drop_nonalpha(word, constants.QUOTE)
-    word = drop_nonalpha(word, constants.SEMI)
-    word = drop_nonalpha(word, constants.SPACE)
-    word = drop_nonalpha(word, constants.NEWLINE)
-    word = drop_nonalpha(word, constants.RESET)
-    return str(word.lower())    
-
+    for element in constants.removal:
+        word = drop_nonalpha(word,element)
+    if(word.isalpha()):
+        return str(word.lower())
+    else:
+        return ''
 def drop_nonalpha (word, part):
     while(word.partition(part)[1]):
         if(word.partition(part)[0] == ''):
@@ -48,10 +41,30 @@ def drop_nonalpha (word, part):
 
 
 def get_WordFrequency(words):
-    #remove duplicates
+    from collections import OrderedDict
     words_no_dupe = list(OrderedDict.fromkeys(words))
     freq  = {}    
     for word in words_no_dupe:
         freq[word] = words.count(word)
     return [words_no_dupe, freq]
-    
+
+def create_conditional_dictionary(words):
+    dictionary = dict(zip(words, [0]*len(words)))
+    for word in list(dictionary):
+        dictionary[word] = dict(zip(words, [0]*len(words)))
+    return dictionary
+
+def create_conditional_dataframe(conditional, word_list):
+    import pandas as pd    
+    df = pd.DataFrame(columns = word_list, index = word_list)
+    for word in word_list:
+        df[word] = list(conditional[word].values())
+    return df
+
+def create_absolute_dataframe(absolute):
+    import pandas as pd
+    return pd.DataFrame(index = list(absolute),columns = ['Occurences'],data = list(absolute.values()))
+
+
+def create_absolute_dictionary(df):
+    return dict(zip(df.index.map(str), list(df['Occurences'])))
