@@ -5,6 +5,8 @@ Created on Sat Apr 27 15:48:35 2019
 @author: Matthew
 """
 import constants
+from progressbar import ProgressBar
+
 
 def parse_Sentences(text_Body):
   text = str(text_Body)
@@ -48,16 +50,29 @@ def get_WordFrequency(words):
         freq[word] = words.count(word)
     return [words_no_dupe, freq]
 
-def create_conditional_dictionary(words):
-    dictionary = dict(zip(words, [0]*len(words)))
-    for word in list(dictionary):
-        dictionary[word] = dict(zip(words, [0]*len(words)))
-    return dictionary
-
+def create_conditional_dictionary(conditional,words):
+    pbar = ProgressBar()
+    if(len(conditional)):
+        for word in pbar(words):
+            if not(word in list(conditional)):
+                conditional[word] = dict(zip(words, [0]*len(words)))
+                for element in list(conditional):
+                    conditional[element][word] = 0
+        return conditional
+    else:
+        dictionary = dict(zip(words, [0]*len(words)))
+        for word in words:
+                dictionary[word] = dict(zip(words, [0]*len(words)))    
+        return dictionary
+    
 def create_conditional_dataframe(conditional, word_list):
-    import pandas as pd    
-    df = pd.DataFrame(columns = word_list, index = word_list)
-    for word in word_list:
+    import pandas as pd
+    pbar = ProgressBar()
+    print("Creating Conditional Dataframe")
+    df = pd.DataFrame(index = word_list, columns = word_list)
+    print("Created empty Dataframe")
+    
+    for word in pbar(word_list):
         df[word] = list(conditional[word].values())
     return df
 
