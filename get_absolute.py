@@ -5,7 +5,6 @@ Created on Sat Apr 27 15:32:17 2019
 @author: Matthew Gill
 
 The purpose of this script is to create a conditional probability database for the english language
-At its core it is a text analyzer
 
 """
 import numpy as np
@@ -54,7 +53,5 @@ for word in word_list:
 
 
 absolute_df = pd.concat([absolute_df,probability], axis = 1)
-
-
 absolute_df.to_excel("absolute.xlsx")
 print("Saved Absolute df ")             

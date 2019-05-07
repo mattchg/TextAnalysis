@@ -24,6 +24,20 @@ removal = ['.',
 '(',
 ')']
 
+parts=['ADJ',
+'ADP',	
+'ADV',	
+'CONJ',
+'DET',
+'NOUN',
+'NUM',	
+'PRT',	
+'PRON',
+'VERB',	
+]
+
+
+
 PERIOD = '.'
 SPACE = ' '
 COMMA  = ','

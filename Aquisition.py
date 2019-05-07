@@ -4,7 +4,6 @@ Spyder Editor
 
 This is a temporary script file.
 """
-from lxml import html
 import requests
 from bs4 import BeautifulSoup
 from progressbar import ProgressBar

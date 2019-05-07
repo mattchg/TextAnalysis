@@ -6,6 +6,7 @@ Created on Sat Apr 27 15:48:35 2019
 """
 import constants
 from progressbar import ProgressBar
+import nltk as nl
 
 
 def parse_Sentences(text_Body):
@@ -83,3 +84,6 @@ def create_absolute_dataframe(absolute):
 
 def create_absolute_dictionary(df):
     return dict(zip(df.index.map(str), list(df['Occurences'])))
+
+def analyze_sentence(sentence):
+    return nl.pos_tag(nl.word_tokenize(sentence),tagset='universal')
