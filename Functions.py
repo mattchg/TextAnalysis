@@ -5,6 +5,9 @@ Created on Sat Apr 27 15:48:35 2019
 @author: Matthew
 """
 import constants
+from progressbar import ProgressBar
+import nltk as nl
+
 
 def parse_Sentences(text_Body):
   text = str(text_Body)

@@ -4,8 +4,10 @@ Created on Mon May  6 13:29:25 2019
 @author: Matthew
 """
 
+import nltk as nl
 import constants
-
+import pandas as pd
+import numpy as np
 
 """
 print("Begin Aquisition")
@@ -77,7 +79,6 @@ for file in Files:
 
 for ind in list(structure_conditional.index):
     structure_conditional[ind] = structure_conditional[ind]/structure_conditional[ind].sum() 
-
 
 structure_conditional.to_excel("structure_conditional.xlsx")
 
