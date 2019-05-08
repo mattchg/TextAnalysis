@@ -54,4 +54,5 @@ for word in word_list:
 
 absolute_df = pd.concat([absolute_df,probability], axis = 1)
 absolute_df.to_excel("absolute.xlsx")
-print("Saved Absolute df ")             
+print("Saved Absolute df ")      
+import get_conditional       
