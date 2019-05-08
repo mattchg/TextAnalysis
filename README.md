@@ -7,3 +7,5 @@ The second DataFrame is a conditional probability table, it takes the words that
 computes the word distribution based on the occurence of each word (ie the probability of a word following another).
 
 The intention is to use this information to create a maximum-likelihood decoder based on the Viterbi algorithm for text.
+
+To use it, clone the repo, and run the get_absolute() script, it calls the rest, the tables will be saved in the directory.
