@@ -7,11 +7,8 @@ Created on Sat Apr 27 15:32:17 2019
 The purpose of this script is to create a conditional probability database for the english language
 
 """
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import Functions
-from progressbar import ProgressBar
+import constants
+
 
 print("Begin Aquisition")
 import Aquisition

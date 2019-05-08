@@ -4,11 +4,13 @@ Created on Thu May  2 08:54:21 2019
 
 @author: Matthew
 """
-import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+import numpy as np
+import nltk as nl
 import Functions
+import matplotlib.pyplot as plt
 from progressbar import ProgressBar
+import constants
 
 print("Begin Aquisition")
 import Aquisition
@@ -40,8 +42,8 @@ for file in Files:
 for word in word_list:
     conditional_df[word] = conditional_df[word]/conditional_df[word].sum()
 
-conditional_df.to_excel('conditional.xlsx')
 
+conditional_df.to_excel('data.xls', sheet_name='Sheet1', index=False, engine='xlsxwriter')
 
 
 

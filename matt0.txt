@@ -1,0 +1,120 @@
+Ethical investing
+Despite company policies to create a positive social and environmental impact, the realities of manufacturing semiconductor devices mean that the Intel Corporation cannot be considered an ethical investment.
+Ethical Investing is the practise of imposing ethical criteria when selecting companies for investment, in part to create an incentive for companies to pursue polices that have positive social impact (Carter & Huby, 2007, p. 1).
+Intel Corporation Background
+The Intel Corporation (Nasdaq:INTC), referred to as Intel throughout this report, is a technology company based in Santa Clara, California, USA. As the world’s largest producer of semiconductor integrated circuit chips (ICCs), technology based on Intel’s x86 architecture can be found in most personal computers and business servers (Intel Corportation, 2017, p. 5). Although it does offer a range of services outside of the manufacture and sale of physical chips, most its revenue is generated through hardware sales, and therefore, the analysis of its status as an ethical investment focuses on this aspect of its business (Intel Corportation, 2017, p. 5).
+Intel utilizes a worldwide network of manufacturing facilities, with factories in the USA, Israel, Ireland, Malaysia, China and Vietnam (Intel Corportation, 2017, p. 9). The bulk (>50%) of its manufacturing and holdings in property, plant and equipment, at $23.5 Billion, are within the United States, but it maintains significant investment in land and factory assets in both Ireland, with $4.8 Billion in assets, and Israel, with $3.9 Billion. Additionally, it holds assets more than $3.7 Billion in all other countries mentioned. Intel employs approximately 106,000 people, with 50% of their workforce located within the United States (Intel Corportation, 2017, p. 10). 
+Its three largest customers, Dell Inc, Hewlett-Packard and Lenovo are all primarily personal computer manufacturers, represent a collective 38% of revenue, and maintain assembly facilities in the Far East, which accounts for the high proportion of Intel’s revenue generated in China (Intel Corportation, 2017, pp. 68-69).
+Intel’s stock price has held steady between $35-$40 over the past few years after collapsing to $13 in 2009 in the wake of the 2008 financial crisis. It has also seen it revenue rise from $35 billion in 2009 to almost $60 billion last year. Intel recognizes uncertainty in the future as it faces increased competition from other firms and technological shifts away from PCs.
+Natural Resources	
+The manufacture of integrated circuit chips (ICCs) requires raw materials, primarily Tin, Tantalum, Tungsten and Gold (Strickland, 2011, p. 11) . Two concerns stem from this; firstly, environmental degradation associated with resource extraction and, secondly, the potential for proceeds from their sale funding militant groups, which has caused these minerals to be referred to as “Conflict Minerals” (Strickland, 2011, p. 12). These two issue are compounded by the fact that Intel’s primary source of these minerals, the Democratic Republic of Congo (DRC), is relatively underdeveloped nation and has been embroiled in a decades long civil war (Osburg, 2016, p. 36). The political and social instability associated with the war has hampered the rule of law and creates demand for funds from various military groups.
+Environmental Practices
+Intel has a company policy on the role that environmental sustainability plays in its business practises. The core tenants of the company policy are formed by integrating “design for the environment… into all aspects of our business; from the development of our products, through our supply chain and manufacturing,” (Intel Corporation, 2013). The realities of running a semiconductor company means pragmatism must trump idealistic company policy.
+The extractive nature of the process to obtain the minerals needed for ICC manufacture means that a certain level of environmental impact is expected. The political instability in the DRC has discouraged investment by large mining corporations and instead most mining in the region is artisanal, that it is done informally and with little capital investment (Ingram, 2011, p. 312). This has resulted in less impact than large scale mining but is almost entirely unregulated, so specific areas cannot be effectively protected from development and mine waste is not disposed of in a safe manner (Ingram, 2011, p. 312). Because of the nature of mining in the DRC, and the Congo basin in general, Intel has little ability to influence environmental practises in the region, but excluding the region as a source would have a devastating impact on the regional economy and could further exacerbate political instability (Osburg, 2016, p. 38).
+Conflict Minerals
+Because of part of the Dodd-Frank Act of 2010 in the USA, Intel has a set policy regarding so-called conflict minerals in its supply chain (Strickland, 2011, p. 11). Termed its “Conflict Free” policy Intel expects its suppliers to “have in place policies and due dilliegence… that assures products and components provided to us containing conflict minerals are conflict free” (Intel Corporation, 2016). Although this statement seems to imply that Intel is simply passing the buck to ensure conflict-free status to its suppliers, this is not actually the case (Osburg, 2016, p. 40). By pursuing a strategy of working with smelters, because only around 160 worldwide can handle the minerals, Intel can take advantage of a bottleneck in its supply chain (Osburg, 2016). This strategy coupled with the influence Intel wields as the primary purchaser of the minerals mean that since 2014 Intel has claimed that its microprocessors are conflict mineral free, though this has not been claimed for its other products. Despite this, the armed groups in the DRC continue to find ways to fund themselves through conflict minerals, meaning that either other companies lack the rigour of Intel’s supply chain management, or Intel, as described in an Al-Jazeera report, is being thwarted at the source due to the decentralized nature of the regions mining (Herrman & Kamat, 2015) (Osburg, 2016, p. 40).
+Manufacturing locations	
+With facilities in countries around the world, Intel is subject to labour and environmental law that can vary significantly by jurisdiction.
+Global Rights Index (GRI)
+Country	GRI
+USA	4
+Ireland	2
+Israel	3
+Malaysia	4
+Vietnam	5
+China	5
+DRC*	3
+ The Global Rights Index (GRI) is compiled by the International Trade Union Confederation and is a measure of the level to which worker’s rights, such as collective bargaining and safety standards, are guaranteed by a state (International Trade Union Confederation, 2016). It considers a country’s recent labour legislation, history of labour rights and any violations that have occurred and returns a score on a scale of 1-5, which is described in Appendix A.
+Shown below, in figure 1, are the GRI scores for countries where Intel maintains production facilities.
+While relatively few nations can satisfy the, rather comprehensive, ITUC labour standards, it is important to note that Intel continues to operate, and even expand, such as in China and Vietnam (see (Mellow, 2015)),  its operations in countries with ratings of 4 and 5, deemed some of the worst places for labour rights.
+Figure 1: GRI Rankings   Source: (International Trade Union Confederation, 2016, pp. 11-16)
+*Material source rather than factory location
+Environmental Performance Index (EPI)
+Country	EPI 
+USA	84.72
+Ireland	86.6
+Israel	78.14
+Malaysia	74.23
+Vietnam	58.5
+China	65.1
+DRC*	42.05
+The EPI is a measure of a countries performance in two aspects of environmental protection; the protection of human health and the maintenance of healthy ecosystems (Hsu & al, 2016). The report is compiled by the Yale Center for Environmental Law & Policy for the World Economic forum. The scores measure how close a nation is coming to meeting internationally agreed upon targets (i.e. from the Paris Climate Accords) or if there aren’t any, its performance as compared to its neighbors (Hsu & al, 2016). 
+Figure 2: GRI Rankings Source: (Hsu & al, 2016, pp. 18-19)
+*Material source rather than factory location
+For additional context, the highest scoring nation, Finland, has a score 0f 90.68, while the lowest, Somalia, received a score of 27.6
+As figure 2, above, shows, Intel’s facilities can be found in nations, specifically China and Vietnam, that have scores far below that of the industrialized west. This, in of itself, is not necessarily an issue, but Intel has a track record of environmental damage in countries with stronger regulatory systems, the USA and Ireland for example, where it has incurred fines for polluting a river and polluting above its quota (Rogoway, 2014) (O'Brien, 2010).
+Conclusion
+As a corporation, Intel has a progressive corporate social responsibility policy and works actively to realize the goals that they have set. The realities of the semiconductor industry, however, make dealing with conflict minerals, environmental degradation at all stages of product life, and questionable regulatory states an inevitability. For these reasons alone, it is necessary to set aside all semiconductor manufacturers as unethical investments. Intel itself has a track record of pushing environmental law as far as it can in its production process, and for this reason, primarily, I am unable to recommend it specifically as an ethical investment, despite its status as arguably the most ethical of the semiconductor companies.
+Word Count: 1345
+Bibliography
+Carter, N., & Huby, M. (2007). Ecological Citizenship and Ethical Investment. Environmental Politics, 255-272.
+Herrman, C., & Kamat, A. (2015, November 14). Are Intel's microprocessors really conflict-free? Aljazeera America.
+Hsu, A., & al, e. (2016). 2016 Environmental Performance Index. New Haven, CT: Yale University.
+Ingram, V. T. (2011). Where artisanal mines and forest meet: Socio-economic and environmental impacts in the Congo Basin. Natural Resources Forum, 304-320.
+Intel Corporation. (2013, July 8). Environmental, Health and Safety Policy. Retrieved from Intel.com: https://www.intel.com/content/www/us/en/corporate-responsibility/environmental-health-safety-policy.html
+Intel Corporation. (2016, May). Conflict-Free Mineral Policy. Retrieved from Intel.com: https://www.intel.com/content/www/us/en/policy/policy-conflict-minerals.html
+Intel Corportation. (2017). 2016 Annual Report. Intel Corportation.
+Internation Trade Union Confederation. (2016). Global Rights Index. ITUC.
+Mellow, C. (2015, Oct 22). Intel inks $5.5bn deal to move 3D NAND production into China. The Register.
+O'Brien, C. (2010, Jan 28). Water pollution caused major disruption at Intel plant. The Irish Times.
+Osburg, T. (2016). Branding Raw Material to Improve Human Rights: Intel's Ban on Conflict Minerals. Gfk Marketing Intelligence Review, 36-41.
+Rogoway, M. (2014, July 26). Intel and the air: Reconciling chipmaker's environmental and economic impact. The Oregonian.
+Strickland, E. (2011). Cracking Down on Conflict Minerals. IEEE Spectrum, 11-12.
+
+Appendix
+INTC 10 Year Stock Price
+ 
+Figure 3: 10 Year Stock Price         Source: Nasdaq.com
+ITTUC GRI rating system
+Description
+1.	Irregular Violations
+Right to organize, collectively bargain, and strike is guaranteed
+Violations against workers are not absent but do not occur on a regular basis.
+2.	Repeated Violations
+Right to organize, collectively bargain, and strike is guaranteed.
+But, rights have come under attack by government/business organizations
+3.	Regular Violations
+Interference in collective rights by business
+Not all rights to bargain and strike collectively are guaranteed 
+The existing labour law is flawed and allows for legal abuse of worker’s rights
+4.	Systemic Violations
+There exists collusion between government and business to entirely suppress worker’s rights.
+Labour laws that do exist are under attack
+5.	No Guarantee of rights
+Weak or non-existent labour legislation.
+Access to rights under said legislation is difficult
+Usually autocratic states, not easily held to account
+     5+   Breakdown of Rule of Law
+Countries experience political turmoil and so unable to guarantee or enforce any labour laws they have.
+Source: (International Trade Union Confederation, 2016, p. 19)
+
+
+Map Data
+Country	EPI 
+USA	84.72
+Ireland	86.6
+Israel	78.14
+Malaysia	74.23
+Vietnam	58.5
+China	65.1
+DRC*	42.05
+Country	GRI
+USA	4
+Ireland	2
+Israel	3
+Malaysia	4
+Vietnam	5
+China	5
+DRC*	3
+Performance I
+
+
+
+
+
+
+EPI Source:  (Hsu & al, 2016, pp. 18-19)
+GRI Source: (International Trade Union Confederation, 2016, pp. 11-16)
+
+ 
+Source: (Intel Corportation, 2017, p. 69)

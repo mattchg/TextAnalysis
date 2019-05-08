@@ -4,6 +4,12 @@ Created on Sat Apr 27 16:16:52 2019
 
 @author: Matthew
 """
+import pandas as pd
+import numpy as np
+import nltk as nl
+import Functions
+import matplotlib.pyplot as plt
+from progressbar import ProgressBar
 
 removal = ['.',
   ' ',

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+This acquires the book texts from the project gutenburg website specified by the numbers in the list
+book_list
+It gathers the html, and parses it into text files for processing by the other scripts
 """
 import requests
 from bs4 import BeautifulSoup
 from progressbar import ProgressBar
 
 
-book_list = ['16406','1342','2515','2489','9404']
+book_list = ['16406','59447','11','1661','74','174','1232','2515','36','996','20','521','2489']
 api_address = 'http://www.gutenberg.org/cache/epub/{}/pg{}.html'
 api_address2 = 'http://www.gutenberg.org/files/{}/{}-h/{}-h.htm'
 i = 0
@@ -30,7 +30,11 @@ for books in pbar(book_list):
             text = text[54:len(text)-1]
     file = open(title.format(str(i)),'w')
     for te in text:
-        file.write(str(te.string))  
+        try: 
+            file.write(str(te.string))
+        except UnicodeEncodeError:
+            x = 1
+            #print("UnicodeError")
     file.close()
     file_list.append(title.format(str(i)))
     i = i + 1
